@@ -1,28 +1,12 @@
-API Testing - SOAP Project#1: Number To Words
-Project Name: Number Conversion Service
-Project URL
+API Testing - REST Project#2: Restful Booker
+Project Name: Restful Booker
+Project URL:https://restful-booker.herokuapp.com/apidoc/index.html
 
-Number Conversion Service API Documentation
+Restful Booker API Documentation:
 Project Description
 
-This project involves testing the SOAP API for number to words conversion. The API converts numerical input into its English word equivalent. The testing focuses on validating the functionality of the API endpoint and handling various input scenarios.
-Test Cases
+This project involves testing the REST API for CRUD. The API is used to Create,Read,Update and Delete bookings. The testing focuses on validating the functionality of the API endpoint.
 
-A set of Postman test cases have been created to cover different scenarios for the number to words conversion API. These include positive and negative test cases to ensure robustness and accuracy in conversion results.
-Running Tests with Newman
+Test Cases:
 
-Newman is a command-line collection runner for Postman. It allows you to run and test a Postman collection directly from the command line.
-Prerequisites
-
-    Node.js installed on your system.
-    Newman installed globally via npm.
-
-Installation
-
-    Install Node.js.
-    Install Newman globally using npm:
-
-    npm install -g newman
-
-Newman Report
-
+A set of Postman test cases have been created to cover different scenarios for Creating New Bookings,Reading Bookings with ID's,Update Bookings both Fully and Partially with the help of Authentication,and also Deleting Bookings. These include positive and negative test cases to check API response.
